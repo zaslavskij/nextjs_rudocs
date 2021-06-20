@@ -75,20 +75,20 @@ yarn lint --dir pages --dir utils
 
 Next.js предостовляет плагин для ESLint, [`eslint-plugin-next`](https://www.npmjs.com/package/@next/eslint-plugin-next), который позволяет легче отлавливать основные нюансы и проблемы в приложении на Next.js. Полный набор правил выглядит следующим образом:
 
-|     | Правило                                                                                        | Описание                                                         |
-| :-: | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| ✔️  | [next/google-font-display](https://nextjs.org/docs/messages/google-font-display)               | Enforce optional or swap font-display behavior with Google Fonts |
-| ✔️  | [next/google-font-preconnect](https://nextjs.org/docs/messages/google-font-preconnect)         | Enforce preconnect usage with Google Fonts                       |
-| ✔️  | [next/link-passhref](https://nextjs.org/docs/messages/link-passhref)                           | Enforce passHref prop usage with custom Link components          |
-| ✔️  | [next/no-css-tags](https://nextjs.org/docs/messages/no-css-tags)                               | Prevent manual stylesheet tags                                   |
-| ✔️  | [next/no-document-import-in-page](https://nextjs.org/docs/messages/no-document-import-in-page) | Disallow importing next/document outside of pages/document.js    |
-| ✔️  | [next/no-head-import-in-document](https://nextjs.org/docs/messages/no-head-import-in-document) | Disallow importing next/head in pages/document.js                |
-| ✔️  | [next/no-html-link-for-pages](https://nextjs.org/docs/messages/no-html-link-for-pages)         | Prohibit HTML anchor links to pages without a Link component     |
-| ✔️  | [next/no-img-element](https://nextjs.org/docs/messages/no-img-element)                         | Prohibit usage of HTML &lt;img&gt; element                       |
-| ✔️  | [next/no-page-custom-font](https://nextjs.org/docs/messages/no-page-custom-font)               | Prevent page-only custom fonts                                   |
-| ✔️  | [next/no-sync-scripts](https://nextjs.org/docs/messages/no-sync-scripts)                       | Forbid synchronous scripts                                       |
-| ✔️  | [next/no-title-in-document-head](https://nextjs.org/docs/messages/no-title-in-document-head)   | Disallow using &lt;title&gt; with Head from next/document        |
-| ✔️  | [next/no-unwanted-polyfillio](https://nextjs.org/docs/messages/no-unwanted-polyfillio)         | Prevent duplicate polyfills from Polyfill.io                     |
+|     | Правило                                                                                        | Описание                                                                                    |
+| :-: | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| ✔️  | [next/google-font-display](https://nextjs.org/docs/messages/google-font-display)               | Использование значений optional or swap для параметра font-display в контексте Google Fonts |
+| ✔️  | [next/google-font-preconnect](https://nextjs.org/docs/messages/google-font-preconnect)         | Принудительное использование preconnect для сервиса Google Fonts                            |
+| ✔️  | [next/link-passhref](https://nextjs.org/docs/messages/link-passhref)                           | Принудительное использование пропса passHref вместе с настраиваемым компонентом Link        |
+| ✔️  | [next/no-css-tags](https://nextjs.org/docs/messages/no-css-tags)                               | Запрещает "ручные" теги таблиц стилей                                                       |
+| ✔️  | [next/no-document-import-in-page](https://nextjs.org/docs/messages/no-document-import-in-page) | Запрещает импортирование next/document вне pages/document.js                                |
+| ✔️  | [next/no-head-import-in-document](https://nextjs.org/docs/messages/no-head-import-in-document) | Запрещает импортирование next/head для pages/document.js                                    |
+| ✔️  | [next/no-html-link-for-pages](https://nextjs.org/docs/messages/no-html-link-for-pages)         | Запрещает якорные ссылки на страницы без компонента Link                                    |
+| ✔️  | [next/no-img-element](https://nextjs.org/docs/messages/no-img-element)                         | Запрещает использование HTML-тега &lt;img&gt;                                               |
+| ✔️  | [next/no-page-custom-font](https://nextjs.org/docs/messages/no-page-custom-font)               | Запрещает шрифты, используемые тольно на одной странице                                     |
+| ✔️  | [next/no-sync-scripts](https://nextjs.org/docs/messages/no-sync-scripts)                       | Запрещает синхронные скрипты                                                                |
+| ✔️  | [next/no-title-in-document-head](https://nextjs.org/docs/messages/no-title-in-document-head)   | Запрещает использование &lt;title&gt; вместе с Head из next/document                        |
+| ✔️  | [next/no-unwanted-polyfillio](https://nextjs.org/docs/messages/no-unwanted-polyfillio)         | Предотвращает дублирование полифиллов с Polyfill.io                                         |
 
 - ✔: Включен в рекомендованной конфигурации
 
