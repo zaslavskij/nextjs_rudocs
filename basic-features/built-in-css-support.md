@@ -267,3 +267,5 @@ export default HelloWorld;
     <small>Расширьте конфиг PostCSS и плагинов Next.js своими собственными настройками.</small>
   </a>
 </div>
+
+/// https://github.com/vercel/next.js/pull/24853/commits/bac71daa49be8794fc69a1ba67638dfa6e0d1632
