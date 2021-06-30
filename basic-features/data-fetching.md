@@ -2,7 +2,7 @@
 description: "Next.js включает в себя 2 вида пре-рендеринга: Статическую Генерацию (Static Generation) и Серверный Рендеринг (Server-side rendering). Здесь вы узнаете как они работают."
 ---
 
-<a name="data-fetching" href="#data-fetching"></a>
+<a name="data_fetching"></a>
 
 # Получение данных
 
