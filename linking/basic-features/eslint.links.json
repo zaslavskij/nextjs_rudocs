@@ -1,0 +1,50 @@
+[
+  {
+    "engText": "ESLint",
+    "engHref": "#eslint",
+    "ruText": "ESLint",
+    "ruHref": "#eslint"
+  },
+  {
+    "engText": "Поиск ошибок во время сборки проекта",
+    "engHref": "#поиск-ошибок-во-время-сборки-проекта",
+    "ruText": "Linting During Builds",
+    "ruHref": "#linting-during-builds"
+  },
+  {
+    "engText": "Поиск ошибок в других каталогах",
+    "engHref": "#поиск-ошибок-в-других-каталогах",
+    "ruText": "Linting Custom Directories",
+    "ruHref": "#linting-custom-directories"
+  },
+  {
+    "engText": "ESLint плагин",
+    "engHref": "#eslint-плагин",
+    "ruText": "ESLint Plugin",
+    "ruHref": "#eslint-plugin"
+  },
+  {
+    "engText": "Базовая конфигурация",
+    "engHref": "#базовая-конфигурация",
+    "ruText": "Base Configuration",
+    "ruHref": "#base-configuration"
+  },
+  {
+    "engText": "Отключение правил",
+    "engHref": "#отключение-правил",
+    "ruText": "Disabling Rules",
+    "ruHref": "#disabling-rules"
+  },
+  {
+    "engText": "Миграция имеющегося конфига",
+    "engHref": "#миграция-имеющегося-конфига",
+    "ruText": "Migrating Existing Config",
+    "ruHref": "#migrating-existing-config"
+  },
+  {
+    "engText": "Core Web Vitals",
+    "engHref": "#core-web-vitals",
+    "ruText": "Core Web Vitals",
+    "ruHref": "#core-web-vitals"
+  }
+]

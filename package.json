@@ -1,11 +1,12 @@
 {
 	"devDependencies": {
+		"dotenv": "^10.0.0",
 		"esm": "^3.2.25",
-		"puppeteer": "^10.1.0",
-		"prompts": "^2.4.1"
+		"prompts": "^2.4.1",
+		"puppeteer": "^10.1.0"
 	},
 	"scripts": {
-		"parser": "node -r esm utils/parser.js"
+		"mapper": "node -r esm utils/anchors-mapper.js"
 	},
 	"dependencies": {}
 }

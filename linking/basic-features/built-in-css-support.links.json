@@ -1,0 +1,62 @@
+[
+  {
+    "engText": "Встроенная поддержка CSS",
+    "engHref": "#встроенная-поддержка-css",
+    "ruText": "Built-In CSS Support",
+    "ruHref": "#built-in-css-support"
+  },
+  {
+    "engText": "Добавление глобальной таблицы стилей",
+    "engHref": "#добавление-глобальной-таблицы-стилей",
+    "ruText": "Adding a Global Stylesheet",
+    "ruHref": "#adding-a-global-stylesheet"
+  },
+  {
+    "engText": "Добавление CSS-стилей уровня компонента",
+    "engHref": "#добавление-css-стилей-уровня-компонента",
+    "ruText": "Adding Component-Level CSS",
+    "ruHref": "#adding-component-level-css"
+  },
+  {
+    "engText": "Поддержка Sass",
+    "engHref": "#поддержка-sass",
+    "ruText": "Sass Support",
+    "ruHref": "#sass-support"
+  },
+  {
+    "engText": "CSS-in-JS",
+    "engHref": "#css-in-js",
+    "ruText": "CSS-in-JS",
+    "ruHref": "#css-in-js"
+  },
+  {
+    "engText": "Часто задаваемые вопросы",
+    "engHref": "#часто-задаваемые-вопросы",
+    "ruText": "FAQ",
+    "ruHref": "#faq"
+  },
+  {
+    "engText": "Связанные темы",
+    "engHref": "#связанные-темы",
+    "ruText": "Related",
+    "ruHref": "#related"
+  },
+  {
+    "engText": "Импортирование стилей из директории node_modules",
+    "engHref": "#импортирование-стилей-из-директории-node_modules",
+    "ruText": "Import styles from node_modules",
+    "ruHref": "#import-styles-from-node_modules"
+  },
+  {
+    "engText": "Настройка параметров Sass",
+    "engHref": "#настройка-параметров-sass",
+    "ruText": "Customizing Sass Options",
+    "ruHref": "#customizing-sass-options"
+  },
+  {
+    "engText": "Будет ли это работать с отключенным JavaScript?",
+    "engHref": "#будет-ли-это-работать-с-отключенным-javascript",
+    "ruText": "Does it work with JavaScript disabled?",
+    "ruHref": "#does-it-work-with-javascript-disabled"
+  }
+]

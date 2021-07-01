@@ -1,0 +1,236 @@
+[
+  {
+    "engText": "# Получение данных",
+    "engHref": "#-получение-данных",
+    "ruText": "Data Fetching",
+    "ruHref": "#data-fetching"
+  },
+  {
+    "engText": "getStaticProps (Статическая генерация (Static Generation))",
+    "engHref": "#getstaticprops-статическая-генерация-static-generation",
+    "ruText": "getStaticProps (Static Generation)",
+    "ruHref": "#getstaticprops-static-generation"
+  },
+  {
+    "engText": "getStaticPaths (Статическая генерация)",
+    "engHref": "#getstaticpaths-статическая-генерация",
+    "ruText": "getStaticPaths (Static Generation)",
+    "ruHref": "#getstaticpaths-static-generation"
+  },
+  {
+    "engText": "getServerSideProps (Рендеринг на стороне сервера - Server-side Rendering, SSR)",
+    "engHref": "#getserversideprops-рендеринг-на-стороне-сервера---server-side-rendering-ssr",
+    "ruText": "getServerSideProps (Server-side Rendering)",
+    "ruHref": "#getserversideprops-server-side-rendering"
+  },
+  {
+    "engText": "Получение данных на стороне клиента",
+    "engHref": "#получение-данных-на-стороне-клиента",
+    "ruText": "Fetching data on the client side",
+    "ruHref": "#fetching-data-on-the-client-side"
+  },
+  {
+    "engText": "Узнать больше",
+    "engHref": "#узнать-больше",
+    "ruText": "Learn more",
+    "ruHref": "#learn-more"
+  },
+  {
+    "engText": "Простой пример",
+    "engHref": "#простой-пример",
+    "ruText": "Simple Example",
+    "ruHref": "#simple-example"
+  },
+  {
+    "engText": "Когда я должен использовать getStaticProps?",
+    "engHref": "#когда-я-должен-использовать-getstaticprops",
+    "ruText": "When should I use getStaticProps?",
+    "ruHref": "#when-should-i-use-getstaticprops"
+  },
+  {
+    "engText": "TypeScript: использование GetStaticProps",
+    "engHref": "#typescript-использование-getstaticprops",
+    "ruText": "TypeScript: Use GetStaticProps",
+    "ruHref": "#typescript-use-getstaticprops"
+  },
+  {
+    "engText": "Инкрементальная статическая регенерация (ISR)",
+    "engHref": "#инкрементальная-статическая-регенерация-isr",
+    "ruText": "Incremental Static Regeneration",
+    "ruHref": "#incremental-static-regeneration"
+  },
+  {
+    "engText": "Чтение фалов: использование process.cwd()",
+    "engHref": "#чтение-фалов-использование-processcwd",
+    "ruText": "Reading files: Use process.cwd()",
+    "ruHref": "#reading-files-use-processcwd"
+  },
+  {
+    "engText": "Технические детали",
+    "engHref": "#технические-детали",
+    "ruText": "Technical details",
+    "ruHref": "#technical-details"
+  },
+  {
+    "engText": "Когда я должен использовать getStaticPaths?",
+    "engHref": "#когда-я-должен-использовать-getstaticpaths",
+    "ruText": "When should I use getStaticPaths?",
+    "ruHref": "#when-should-i-use-getstaticpaths"
+  },
+  {
+    "engText": "TypeScript: использование GetStaticPaths",
+    "engHref": "#typescript-использование-getstaticpaths",
+    "ruText": "TypeScript: Use GetStaticPaths",
+    "ruHref": "#typescript-use-getstaticpaths"
+  },
+  {
+    "engText": "Технические подробности",
+    "engHref": "#технические-подробности",
+    "ruText": "Technical details",
+    "ruHref": "#technical-details-1"
+  },
+  {
+    "engText": "Простой пример",
+    "engHref": "#простой-пример-1",
+    "ruText": "Simple example",
+    "ruHref": "#simple-example-1"
+  },
+  {
+    "engText": "Когда мы должны использовать getServerSideProps?",
+    "engHref": "#когда-мы-должны-использовать-getserversideprops",
+    "ruText": "When should I use getServerSideProps?",
+    "ruHref": "#when-should-i-use-getserversideprops"
+  },
+  {
+    "engText": "TypeScript: Использование GetServerSideProps",
+    "engHref": "#typescript-использование-getserversideprops",
+    "ruText": "TypeScript: Use GetServerSideProps",
+    "ruHref": "#typescript-use-getserversideprops"
+  },
+  {
+    "engText": "Технические детали",
+    "engHref": "#технические-детали-1",
+    "ruText": "Technical details",
+    "ruHref": "#technical-details-2"
+  },
+  {
+    "engText": "SWR",
+    "engHref": "#swr",
+    "ruText": "SWR",
+    "ruHref": "#swr"
+  },
+  {
+    "engText": "Запуск только в момент сборки",
+    "engHref": "#запуск-только-в-момент-сборки",
+    "ruText": "Only runs at build time",
+    "ruHref": "#only-runs-at-build-time"
+  },
+  {
+    "engText": "Пишите серверный код напрямую",
+    "engHref": "#пишите-серверный-код-напрямую",
+    "ruText": "Write server-side code directly",
+    "ruHref": "#write-server-side-code-directly"
+  },
+  {
+    "engText": "Статическая генерация как HTML, так и JSON",
+    "engHref": "#статическая-генерация-как-html-так-и-json",
+    "ruText": "Statically Generates both HTML and JSON",
+    "ruHref": "#statically-generates-both-html-and-json"
+  },
+  {
+    "engText": "Можно выполнять только на странице",
+    "engHref": "#можно-выполнять-только-на-странице",
+    "ruText": "Only allowed in a page",
+    "ruHref": "#only-allowed-in-a-page"
+  },
+  {
+    "engText": "В режиме разработки запускается на каждый запрос",
+    "engHref": "#в-режиме-разработки-запускается-на-каждый-запрос",
+    "ruText": "Runs on every request in development",
+    "ruHref": "#runs-on-every-request-in-development"
+  },
+  {
+    "engText": "Режим предпросмотра (превью)",
+    "engHref": "#режим-предпросмотра-превью",
+    "ruText": "Preview Mode",
+    "ruHref": "#preview-mode"
+  },
+  {
+    "engText": "Ключ paths (обязательный)",
+    "engHref": "#ключ-paths-обязательный",
+    "ruText": "The paths key (required)",
+    "ruHref": "#the-paths-key-required"
+  },
+  {
+    "engText": "Ключ fallback (обязательный)",
+    "engHref": "#ключ-fallback-обязательный",
+    "ruText": "The fallback key (required)",
+    "ruHref": "#the-fallback-key-required"
+  },
+  {
+    "engText": "fallback: false",
+    "engHref": "#fallback-false",
+    "ruText": "fallback: false",
+    "ruHref": "#fallback-false"
+  },
+  {
+    "engText": "fallback: true",
+    "engHref": "#fallback-true",
+    "ruText": "fallback: true",
+    "ruHref": "#fallback-true"
+  },
+  {
+    "engText": "\"Резервные\" (\"fallback\") страницы",
+    "engHref": "#резервные-fallback-страницы",
+    "ruText": "Fallback pages",
+    "ruHref": "#fallback-pages"
+  },
+  {
+    "engText": "Когда удобно использовать fallback: true?",
+    "engHref": "#когда-удобно-использовать-fallback-true",
+    "ruText": "When is fallback: true useful?",
+    "ruHref": "#when-is-fallback-true-useful"
+  },
+  {
+    "engText": "fallback: 'blocking'",
+    "engHref": "#fallback-blocking",
+    "ruText": "fallback: 'blocking'",
+    "ruHref": "#fallback-blocking"
+  },
+  {
+    "engText": "Использование совместно с getStaticProps",
+    "engHref": "#использование-совместно-с-getstaticprops",
+    "ruText": "Use together with getStaticProps",
+    "ruHref": "#use-together-with-getstaticprops"
+  },
+  {
+    "engText": "Работает только во время сборки на стороне сервера",
+    "engHref": "#работает-только-во-время-сборки-на-стороне-сервера",
+    "ruText": "Only runs at build time on server-side",
+    "ruHref": "#only-runs-at-build-time-on-server-side"
+  },
+  {
+    "engText": "Разрешено только на уровне страницы",
+    "engHref": "#разрешено-только-на-уровне-страницы",
+    "ruText": "Only allowed in a page",
+    "ruHref": "#only-allowed-in-a-page-1"
+  },
+  {
+    "engText": "Запускается на каждый запрос в режиме разработки",
+    "engHref": "#запускается-на-каждый-запрос-в-режиме-разработки",
+    "ruText": "Runs on every request in development",
+    "ruHref": "#runs-on-every-request-in-development-1"
+  },
+  {
+    "engText": "Вызывается только на сервере",
+    "engHref": "#вызывается-только-на-сервере",
+    "ruText": "Only runs on server-side",
+    "ruHref": "#only-runs-on-server-side"
+  },
+  {
+    "engText": "Разрешено к использованию только на странице",
+    "engHref": "#разрешено-к-использованию-только-на-странице",
+    "ruText": "Only allowed in a page",
+    "ruHref": "#only-allowed-in-a-page-2"
+  }
+]
