@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/zaslavskij/.nvm/versions/node/v12.17.0/bin/node /usr/local/bin/yarn add -D esm puppetteer
+
+PATH: 
+  /Users/zaslavskij/.nvm/versions/node/v12.17.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/zaslavskij/.nvm/versions/node/v12.17.0/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/puppetteer: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1221:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
