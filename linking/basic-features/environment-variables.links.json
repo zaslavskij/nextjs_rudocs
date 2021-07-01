@@ -1,0 +1,38 @@
+[
+  {
+    "engText": "Переменные среды",
+    "engHref": "#переменные-среды",
+    "ruText": "Environment Variables",
+    "ruHref": "#environment-variables"
+  },
+  {
+    "engText": "Загрузка переменных среды",
+    "engHref": "#загрузка-переменных-среды",
+    "ruText": "Loading Environment Variables",
+    "ruHref": "#loading-environment-variables"
+  },
+  {
+    "engText": "Предоставление переменных среды браузеру",
+    "engHref": "#предоставление-переменных-среды-браузеру",
+    "ruText": "Exposing Environment Variables to the Browser",
+    "ruHref": "#exposing-environment-variables-to-the-browser"
+  },
+  {
+    "engText": "Переменные среды по умолчанию",
+    "engHref": "#переменные-среды-по-умолчанию",
+    "ruText": "Default Environment Variables",
+    "ruHref": "#default-environment-variables"
+  },
+  {
+    "engText": "Переменные среды на платформе Vercel",
+    "engHref": "#переменные-среды-на-платформе-vercel",
+    "ruText": "Environment Variables on Vercel",
+    "ruHref": "#environment-variables-on-vercel"
+  },
+  {
+    "engText": "Переменные среды для тестирования",
+    "engHref": "#переменные-среды-для-тестирования",
+    "ruText": "Test Environment Variables",
+    "ruHref": "#test-environment-variables"
+  }
+]
