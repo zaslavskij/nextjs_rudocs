@@ -1,0 +1,80 @@
+[
+  {
+    "engText": "Компонент Image и оптимизация изображений",
+    "engHref": "#компонент-image-и-оптимизация-изображений",
+    "ruText": "Image Component and Image Optimization",
+    "ruHref": "#image-component-and-image-optimization"
+  },
+  {
+    "engText": "Компонент Image",
+    "engHref": "#компонент-image",
+    "ruText": "Image Component",
+    "ruHref": "#image-component"
+  },
+  {
+    "engText": "Импорт изображений",
+    "engHref": "#импорт-изображений",
+    "ruText": "Image Imports",
+    "ruHref": "#image-imports"
+  },
+  {
+    "engText": "Пропсы",
+    "engHref": "#пропсы",
+    "ruText": "Properties",
+    "ruHref": "#properties"
+  },
+  {
+    "engText": "Конфигурация",
+    "engHref": "#конфигурация",
+    "ruText": "Configuration",
+    "ruHref": "#configuration"
+  },
+  {
+    "engText": "Кеширование",
+    "engHref": "#кеширование",
+    "ruText": "Caching",
+    "ruHref": "#caching"
+  },
+  {
+    "engText": "Расширенные настройки",
+    "engHref": "#расширенные-настройки",
+    "ruText": "Advanced",
+    "ruHref": "#advanced"
+  },
+  {
+    "engText": "Связанные темы",
+    "engHref": "#связанные-темы",
+    "ruText": "Related",
+    "ruHref": "#related"
+  },
+  {
+    "engText": "Домены",
+    "engHref": "#домены",
+    "ruText": "Domains",
+    "ruHref": "#domains"
+  },
+  {
+    "engText": "Загрузчик (loader)",
+    "engHref": "#загрузчик-loader",
+    "ruText": "Loader",
+    "ruHref": "#loader"
+  },
+  {
+    "engText": "Размеры устройств (Device Sizes)",
+    "engHref": "#размеры-устройств-device-sizes",
+    "ruText": "Device Sizes",
+    "ruHref": "#device-sizes"
+  },
+  {
+    "engText": "Размеры изображения",
+    "engHref": "#размеры-изображения",
+    "ruText": "Image Sizes",
+    "ruHref": "#image-sizes"
+  },
+  {
+    "engText": "Отключение статических импортов",
+    "engHref": "#отключение-статических-импортов",
+    "ruText": "Disable Static Imports",
+    "ruHref": "#disable-static-imports"
+  }
+]
