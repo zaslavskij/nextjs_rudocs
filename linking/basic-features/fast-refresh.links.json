@@ -1,0 +1,50 @@
+[
+  {
+    "engText": "Быстрое обновление",
+    "engHref": "#быстрое-обновление",
+    "ruText": "Fast Refresh",
+    "ruHref": "#fast-refresh"
+  },
+  {
+    "engText": "Как это работает",
+    "engHref": "#как-это-работает",
+    "ruText": "How It Works",
+    "ruHref": "#how-it-works"
+  },
+  {
+    "engText": "Устойчивость к ошибкам",
+    "engHref": "#устойчивость-к-ошибкам",
+    "ruText": "Error Resilience",
+    "ruHref": "#error-resilience"
+  },
+  {
+    "engText": "Ограничения",
+    "engHref": "#ограничения",
+    "ruText": "Limitations",
+    "ruHref": "#limitations"
+  },
+  {
+    "engText": "Подсказки",
+    "engHref": "#подсказки",
+    "ruText": "Tips",
+    "ruHref": "#tips"
+  },
+  {
+    "engText": "Быстрое обновление и хуки (Hooks)",
+    "engHref": "#быстрое-обновление-и-хуки-hooks",
+    "ruText": "Fast Refresh and Hooks",
+    "ruHref": "#fast-refresh-and-hooks"
+  },
+  {
+    "engText": "Синтаксические ошибки",
+    "engHref": "#синтаксические-ошибки",
+    "ruText": "Syntax Errors",
+    "ruHref": "#syntax-errors"
+  },
+  {
+    "engText": "Ошибки в рантайме (во время выполнения)",
+    "engHref": "#ошибки-в-рантайме-во-время-выполнения",
+    "ruText": "Runtime Errors",
+    "ruHref": "#runtime-errors"
+  }
+]
