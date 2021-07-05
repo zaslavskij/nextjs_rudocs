@@ -1,0 +1,26 @@
+[
+  {
+    "engText": "Оптимизация шрифтов",
+    "engHref": "#оптимизация-шрифтов",
+    "ruText": "Font Optimization",
+    "ruHref": "#font-optimization"
+  },
+  {
+    "engText": "Использование",
+    "engHref": "#использование",
+    "ruText": "Usage",
+    "ruHref": "#usage"
+  },
+  {
+    "engText": "Отключение оптимизации",
+    "engHref": "#отключение-оптимизации",
+    "ruText": "Disabling Optimization",
+    "ruHref": "#disabling-optimization"
+  },
+  {
+    "engText": "Связанные темы",
+    "engHref": "#связанные-темы",
+    "ruText": "Related",
+    "ruHref": "#related"
+  }
+]
