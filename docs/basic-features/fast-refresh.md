@@ -84,36 +84,27 @@ description:
 - Иногда вам моджет понадобиться _принудительно_ сбросить состояние и перемонтировать компонент.
   Например, это может быть полезно, когда вы настраиваете анимацию, которая воспроизводится
   только тогда, когда компонент монтируется. Для этого нужно добавить `// @refresh reset` в любое место редактируемого
-  файла.
-- Sometimes you might want to _force_ the state to be reset, and a component to
-  be remounted. For example, this can be handy if you're tweaking an animation
-  that only happens on mount. To do this, you can add `// @refresh reset`
-  anywhere in the file you're editing. This directive is local to the file, and
-  instructs Fast Refresh to remount components defined in that file on every
-  edit.
-- You can put `console.log` or `debugger;` into the components you edit during
-  development.
+  файла. Эта директива работает на уровне файла и сообщает механизму быстрого обновления о том, что компоненты,
+  определенные в этом файле, необходимо перемонтировать на каждое изменение в нем.
+- В процессе разработки вы можете добавить в `console.log` или `debugger;` в компоненты над которыми вы работаете.
 
-## Fast Refresh and Hooks
+## Быстрое обновление и хуки (Hooks)
 
-When possible, Fast Refresh attempts to preserve the state of your component
-between edits. In particular, `useState` and `useRef` preserve their previous
-values as long as you don't change their arguments or the order of the Hook
-calls.
+Когда это возможно, быстрое обновление сохраняет состояние компонента между изменениями.
+В частности, хуки `useState` и `useRef` сохраняют свои значения до тех пор, пока
+вы не измените их аргументы или порядок вызова данных хуков.
 
-Hooks with dependencies—such as `useEffect`, `useMemo`, and `useCallback`—will
-_always_ update during Fast Refresh. Their list of dependencies will be ignored
-while Fast Refresh is happening.
+Хуки со списками зависимостей, такие как `useEffect`, `useMemo`, и `useCallback` будут обновляться
+_всегда_ во время быстрого обновления. Их список зависимостей будет проигнорирован пока происходит
+быстрое обновление.
 
-For example, when you edit `useMemo(() => x * 2, [x])` to
-`useMemo(() => x * 10, [x])`, it will re-run even though `x` (the dependency)
-has not changed. If React didn't do that, your edit wouldn't reflect on the
-screen!
+Например, если вы изменили хук `useMemo(() => x * 2, [x])`, сделав его таким `useMemo(() => x * 10, [x])` -
+это приведет к перезапуску, не смотря на то, что значение переменной `x` из списка зависмостей не было изменено.
+Если бы React этого не сделал, то ваши изменения попросту бы не отобразились на экране!
 
-Sometimes, this can lead to unexpected results. For example, even a `useEffect`
-with an empty array of dependencies would still re-run once during Fast Refresh.
+Иногда это может привести к неожиданным результатам. Например, даже если `useEffect` имеет пустой
+массив зависимостей,он будет запускаться каждый раз во время быстрого обновления.
 
-However, writing code resilient to occasional re-running of `useEffect` is a good practice even
-without Fast Refresh. It will make it easier for you to introduce new dependencies to it later on
-and it's enforced by [React Strict Mode](/docs/api-reference/next.config.js/react-strict-mode.md),
-which we highly recommend enabling.
+Однако написание кода, устойчивого к случайному перезапуску `useEffect` считается хорошей практикой,
+вне зависимости от наличия Fast Refresh. Для упрощения работы со списком зависимостей мы рукомендем вам
+включить [React Strict Mode](/docs/api-reference/next.config.js/react-strict-mode.md).
