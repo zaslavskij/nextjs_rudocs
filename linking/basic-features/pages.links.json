@@ -1,0 +1,80 @@
+[
+  {
+    "engText": "Страницы",
+    "engHref": "#страницы",
+    "ruText": "Pages",
+    "ruHref": "#pages"
+  },
+  {
+    "engText": "Пре-рендеринг",
+    "engHref": "#пре-рендеринг",
+    "ruText": "Pre-rendering",
+    "ruHref": "#pre-rendering"
+  },
+  {
+    "engText": "Статическая генерация (рекомендуется)",
+    "engHref": "#статическая-генерация-рекомендуется",
+    "ruText": "Static Generation (Recommended)",
+    "ruHref": "#static-generation-recommended"
+  },
+  {
+    "engText": "Рендеринг на стороне сервера",
+    "engHref": "#рендеринг-на-стороне-сервера",
+    "ruText": "Server-side Rendering",
+    "ruHref": "#server-side-rendering"
+  },
+  {
+    "engText": "Резюме",
+    "engHref": "#резюме",
+    "ruText": "Summary",
+    "ruHref": "#summary"
+  },
+  {
+    "engText": "Узнать больше",
+    "engHref": "#узнать-больше",
+    "ruText": "Learn more",
+    "ruHref": "#learn-more"
+  },
+  {
+    "engText": "Страницы с динамическими маршрутами",
+    "engHref": "#страницы-с-динамическими-маршрутами",
+    "ruText": "Pages with Dynamic Routes",
+    "ruHref": "#pages-with-dynamic-routes"
+  },
+  {
+    "engText": "Два вида пре-рендеринга",
+    "engHref": "#два-вида-пре-рендеринга",
+    "ruText": "Two forms of Pre-rendering",
+    "ruHref": "#two-forms-of-pre-rendering"
+  },
+  {
+    "engText": "Статическая генерация без данных",
+    "engHref": "#статическая-генерация-без-данных",
+    "ruText": "Static Generation without data",
+    "ruHref": "#static-generation-without-data"
+  },
+  {
+    "engText": "Статическая генерация с данными",
+    "engHref": "#статическая-генерация-с-данными",
+    "ruText": "Static Generation with data",
+    "ruHref": "#static-generation-with-data"
+  },
+  {
+    "engText": "Когда я должен использовать статическую генерацию (Static Site Generation)?",
+    "engHref": "#когда-я-должен-использовать-статическую-генерацию-static-site-generation",
+    "ruText": "When should I use Static Generation?",
+    "ruHref": "#when-should-i-use-static-generation"
+  },
+  {
+    "engText": "Вариант 1: Содержимое вашей страницы зависит от внешних данных",
+    "engHref": "#вариант-1-содержимое-вашей-страницы-зависит-от-внешних-данных",
+    "ruText": "Scenario 1: Your page content depends on external data",
+    "ruHref": "#scenario-1-your-page-content-depends-on-external-data"
+  },
+  {
+    "engText": "Вариант 2: маршруты до вашей страницы зависят от внешних данных",
+    "engHref": "#вариант-2-маршруты-до-вашей-страницы-зависят-от-внешних-данных",
+    "ruText": "Scenario 2: Your page paths depend on external data",
+    "ruHref": "#scenario-2-your-page-paths-depend-on-external-data"
+  }
+]
